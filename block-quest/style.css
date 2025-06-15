@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    font-family: sans-serif;
+    background: #000;
+    color: #fff;
+}
+#hud {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 10;
+}
+#blueprint {
+    width: 200px;
+    opacity: 0.5;
+    display: block;
+    margin-bottom: 10px;
+    border: 1px solid #fff;
+}
+#palette {
+    display: flex;
+    flex-wrap: wrap;
+    width: 160px;
+}
+.palette-color {
+    width: 20px;
+    height: 20px;
+    margin: 2px;
+    border: 1px solid #555;
+    cursor: pointer;
+}
+#level-info {
+    margin-top: 10px;
+}
+#export-save {
+    margin-top: 10px;
+}
